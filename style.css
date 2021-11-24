@@ -1,0 +1,14 @@
+.navbar{
+    position: static;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: grey;
+}
+
+.navitems{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
