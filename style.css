@@ -3,12 +3,43 @@
     top:0;
     left:0;
     width:100%;
+    height: 200px;
     background-color: grey;
 }
 
 .navitems{
+    width: 100%;
     display: flex;
-    padding: 10px;
-    justify-content: center;
-    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+
 }
+
+.search{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    
+}
+
+.cart{
+    position: relative;
+    top: 10px;
+}
+
+
+.category-bar{
+    position: static;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.slide-container {
+    max-width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: grey;
+  }
