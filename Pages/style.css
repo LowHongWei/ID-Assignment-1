@@ -1,0 +1,285 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar{
+    display: flex;
+    position: static;
+    top:0;
+    left:0;
+    width:100%;
+    height: auto;
+    background-color: grey;
+    flex-flow: column wrap;
+    background: url(../Images/Upsplash.jpg);
+    background-size: 1000px 300px;
+}
+
+.title{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    padding-top: 20px;
+    left: 44%;
+    flex-flow: row wrap;
+    margin:0px 0px -20px 0px;
+
+}
+
+.navitems{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    margin: 0;
+    color: white;
+    
+
+}
+
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%
+    
+}
+
+.close{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: auto;
+    margin-right:0 ;
+    font-size: 30px;
+    padding: 0;
+    margin:0px 0px -20px 0px;
+}
+
+.category-bar{
+
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    border:solid black 3px;
+
+}
+
+.images{
+    display: flex;
+    width: 38%;
+    overflow: hidden;
+    
+}
+
+.images img{
+    height: 400px;
+    width:100%;
+    transition: all 0.4s ease;
+}
+
+.images input{
+    display: none;
+}
+
+.slider-text{
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 10%;
+    align-items: center;
+
+}
+
+.button{
+    position: absolute;
+    bottom: 8px;
+    left: 24%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.button label{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border:solid black 3px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.button label:hover{background-color: black;}
+
+#image1:checked ~ .m1{
+    margin-left: 0;
+}
+#image2:checked ~ .m2{
+    margin-left: -100%;
+}
+#image3:checked ~ .m3{
+    margin-left: -200%;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    margin: 30px;
+    border: black solid 3px;
+
+}
+
+.row{
+    content: "";
+    clear: both;
+    display: table;
+    height: 400px;
+    
+  }
+
+.footer-container{
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+
+.footer{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.footer-content1{
+
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    height: 300px;
+    width: 20%;
+    align-items: center;
+}
+
+.footer-content1 h1{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.footer-content1 p{
+    margin-bottom: 8px;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.footer-content2{
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    height: 200px;
+    width: 40%;
+    align-items: center;
+}
+
+.footer-content2 p{
+    margin-bottom: 8px;
+    font-size: 20px;
+
+}
+
+.footer-content1 h2{
+    margin-bottom: 8px;
+}
+
+.footer-input h1{
+    margin-bottom: 8px;
+}
+
+#footer-email{
+    width: 250px;
+    height:40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 4px;
+}
+
+#footer-button{
+    width: 100px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+#footer-button:hover{
+    color: black;
+    background-color: lightblue;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+}
+
+a:hover { text-decoration: none; color:red; }
+
+a:active { text-decoration: none; color:green; }
+
+.hovercontainer{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.wholehover{
+    position: relative;
+    width: 40%;
+    margin: 15px;
+}
+
+.hover-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0,0.6);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.image-overlay:hover{
+    opacity: 1 ;
+}
+
+.image-title{
+    font-size: 50px;
+    font-weight: bold;
+}

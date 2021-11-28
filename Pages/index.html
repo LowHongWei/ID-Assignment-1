@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Retail Website</title>
+    <link href="Normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Dongle:wght@300&family=Irish+Grover&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="title" src="../Images/Title.png" alt="">
+      <div class="navitems">
+        <div class="close">
+          <a href="index.html">
+            <h4>Home</h4>
+          </a>
+          <h4>Products</h4>
+          <h4>About</h4>
+          <h4>Contact</h4>
+          <h4>Account</h4>
+          <img src="../Images/Cart.png" alt="Shopping Cart" width="60px" height="60px" style="position: relative; bottom: 25px;">
+        </div>
+      </div>
+      <form>
+        <div class="form">
+          <input type="text" placeholder="Search..." style="position: relative; width: 400px;">
+          <div class="input-btn">
+            <button class="btn" type="submit">
+              <img src="../Images/Search.png" alt="Search" width="50px" height="50px" id="search-btn">
+            </button>
+          </div>
+        </div>
+      </nav>
+    <nav class="category-bar">
+      <div class="navitems">
+        <a href="Category(Male).html">
+          <h1 style="color: white; position: relative; bottom: 5px;">Male Section</h1>
+        </a>
+        <a href="Category(Female).html">
+        <h1 style="color: white; position: relative; bottom: 5px;">Female Section</h1>
+        </a>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="slider-text">
+        <h1>Click on the images for a surprise</h1>
+        <h2>Psssst! The buttons does something too</h2>
+      </div>
+      <div class="images">
+        <input type="radio" name="slide" id="image1" checked>
+        <input type="radio" name="slide" id="image2">
+        <input type="radio" name="slide" id="image3">
+        <img src="../Images/Nike shoes.jpg" class="m1" alt="image1" onclick="document.location.href='https://hypebeast.com/2021/11/air-jordan-1-low-crater-dm4657-004-grey-release-info'">
+        <img src="../Images/Colourful Nike Shoe.jpg" class="m2" alt="image2" onclick="document.location.href='https://hypebeast.com/2021/11/nike-air-max-95-sprung-2022-preview'">
+        <img src="../Images/The guardian article.jpg" class="m3" alt="image3" onclick="document.location.href='https://www.theguardian.com/fashion/2017/mar/29/how-streetwear-styled-the-world-from-hip-hop-to-supreme-and-palace'">
+      </div>
+      <div class="button">
+        <label for="image1"></label>
+        <label for="image2"></label>
+        <label for="image3"></label>
+      </div>
+    </div>
+    <h1>Promotion</h1>
+    <div class="row">
+      <div class="column">
+        <img src="../Images/Promotion 1.png" alt="Cashback" width="100%">
+      </div>
+      <div class="column">
+        <img src="../Images/Promotion 2.png" alt="Buy 3 Get 20% off" width="100%">
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-content1">
+          <h1>About Us</h1>
+          <p>We are a small and upcoming company that specialises in finding the best styles for you. We have many options for clothes as well as different category of clothes. If you are finding a one stop shop, WE ARE THE WEBSITE TO BE AT! Happy Shopping!</p>
+          </div>
+        <div class="footer-content2">
+          <h1>Contact details</h1>
+          <p>Number: +65 8234 2342</p>
+          <p>Shop: Ion Orchard 03#42</p>
+          <p>Instagram: @ThePlugSG</p>
+        </div>
+      <div class="footer-input">
+        <h1>Join our news letter</h1>
+        <input type="email" placeholder="Enter your email address" id="footer-email">
+        <input type="submit" value="Sign up now" id="footer-button">
+      </div>
+     </div>
+    </div>
+  </body>
+</html>
