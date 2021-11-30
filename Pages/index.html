@@ -10,15 +10,29 @@
   </head>
   <body>
     <nav class="navbar">
-      <img class="title" src="../Images/Title.png" alt="">
+      <a href="index.html">
+        <img class="title" src="../Images/Title.png" alt="">
+      </a>
       <div class="navitems">
         <div class="close">
           <a href="index.html">
             <h4>Home</h4>
           </a>
-          <h4>Products</h4>
+          <div class="products">
+            <a href="../Pages/index.html">
+            <h4>Products</h4>
+            </a>
+            <div class="dropdown">
+              <a href="../Pages/Category(Male).html">Male Section</a>
+              <a href="../Pages/Category(Female).html">Female Section</a>
+            </div>
+          </div>
+          <a href="#Aboutus">
           <h4>About</h4>
-          <h4>Contact</h4>
+          </a>
+          <a href="#Aboutus">
+            <h4>Contact</h4>
+            </a>
           <h4>Account</h4>
           <img src="../Images/Cart.png" alt="Shopping Cart" width="60px" height="60px" style="position: relative; bottom: 25px;">
         </div>
@@ -34,7 +48,7 @@
         </div>
       </nav>
     <nav class="category-bar">
-      <div class="navitems">
+      <div class="navitems" id="selection">
         <a href="Category(Male).html">
           <h1 style="color: white; position: relative; bottom: 5px;">Male Section</h1>
         </a>
@@ -74,7 +88,7 @@
     <div class="footer-container">
       <div class="footer">
         <div class="footer-content1">
-          <h1>About Us</h1>
+          <h1 id="Aboutus">About Us</h1>
           <p>We are a small and upcoming company that specialises in finding the best styles for you. We have many options for clothes as well as different category of clothes. If you are finding a one stop shop, WE ARE THE WEBSITE TO BE AT! Happy Shopping!</p>
           </div>
         <div class="footer-content2">
