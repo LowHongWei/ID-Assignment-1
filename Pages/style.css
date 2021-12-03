@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 *{
     font-family: 'Bebas Neue', cursive;
 }
@@ -16,13 +24,13 @@
 }
 
 .title{
-    width: 200px;
-    height: 50px;
+    width: 20%;
+    height: auto;
     position: relative;
-    padding-top: 20px;
-    left: 44%;
+    padding-top: 2%;
+    left: 40%;
     flex-flow: row wrap;
-    margin:0px 0px -20px 0px;
+    margin:0px 0px -1% 0px;
 }
 
 .products{
@@ -58,8 +66,6 @@
     flex-flow: row;
     margin: 0;
     color: white;
-    
-
 }
 
 .form{
@@ -101,7 +107,6 @@
     position: relative;
     width: 100%;
     border:solid black 3px;
-
 }
 
 .images{
@@ -126,7 +131,6 @@
     flex-flow: column wrap;
     margin-right: 10%;
     align-items: center;
-
 }
 
 .button{
@@ -161,10 +165,9 @@
 
 .column {
     float: left;
-    width: 45%;
+    width: 44%;
     margin: 30px;
     border: black solid 3px;
-
 }
 
 .row{
@@ -172,7 +175,6 @@
     clear: both;
     display: table;
     height: 400px;
-    
   }
 
 .footer-container{
@@ -284,7 +286,6 @@ a{color: white;}
     display: block;
     width: 100%;
     height: 100%;
-    
 }
 
 .image-overlay{
@@ -387,7 +388,6 @@ a{color: white;}
     padding-bottom: 10px;
     margin-top: 10px;
     width: 100%;
-    
 }
 
 .CartFlex{
@@ -395,8 +395,6 @@ a{color: white;}
     justify-content: space-between;
     flex-flow: row wrap;
     width: 100%;
-    
-    
 }
 
 .CartTitle{
@@ -472,7 +470,6 @@ a{color: white;}
     margin: 40px auto 80px auto;
     font-size: 30px;
     text-align: center;
-    vertical-align: middle;
     padding: 20px;
     cursor: pointer;background-color: lightblue;
     color: white;
@@ -481,3 +478,226 @@ a{color: white;}
     border-radius: 10px;
     font-weight: bold;
 }
+
+.CheckoutContainer{
+    display: flex;
+    width: 70%;
+    flex-flow: row;
+    background-color: lightgray;
+    margin-left: 15%;
+    
+}
+
+.CheckoutContent{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    
+}
+
+.CheckoutTitle{
+    text-align: center;
+}
+
+.Formtitle{
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.CheckoutInput {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+
+.CheckoutEntity{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 7px;
+}
+
+.ImageContainer{
+    display: flex;
+    margin-bottom: 25px;
+    padding: 6px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.CheckoutButton{
+    display: block;
+    margin: 20px auto 20px auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;background-color: lightblue;
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.MessageContainer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        width: 40%;
+        height: auto;
+        position: relative;
+        padding-top: 2%;
+        left: 30%;
+        flex-flow: row wrap;
+        margin:0px 0px -6% 0px;
+    }
+    .navitems{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row;
+        color: white;
+    }
+    .close{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        width: 80%;
+        margin-left: auto;
+        margin-right:0 ;
+        font-size: 30px;
+        padding: 0;
+        margin:0px 0px -20px 0px;
+    }
+    .slider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border:solid black 3px;
+        font-size: 12px;
+        padding: 2%;
+    }
+    slider-text{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .images{
+        display: flex;
+        width: 130%;
+        overflow: hidden;
+    }
+      .column {
+        position: relative;
+        float: right;
+        width: 90%;
+        margin: 30px;
+        border: black solid 3px;
+    }
+    .footer{
+        display: flex;
+        width: 100%;
+        height: 30%;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        flex-flow: column wrap;
+        margin: 0 auto;
+    }
+    .footer-content1{
+
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        height: 100%;
+        width: 95%;
+        align-items: center;
+    }
+    
+    .footer-content2{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 95%;
+        align-items: center;
+    }
+    .footer-input{
+        padding: 5%;
+    }
+    .wholehover{
+        position: relative;
+        width: 100%;
+        margin: 15px;
+    }
+    .image-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0,0,0.6);
+        color: white;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+    }
+    .product-container{
+        display: flex;
+        width: 100%;
+        margin: 0%;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .CartPrice{
+        width: 10%;
+        font-size: 15px;
+        color: #333;
+        margin-left: 15%;
+
+    }
+    .CartTitle{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        width: 60%;
+    }
+    .CartImage{
+        width: 80%;
+        height: auto;
+
+    }
+    .CartQuantity{
+        height: 34px;
+        width: 20px;
+        border-radius: 5px;
+        border: 1px solid #56CCF2;
+        background-color: #eee;
+        color: #333;
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+    }
+    .CheckoutContainer{
+        display: flex;
+        width: 100%;
+        flex-flow: row;
+        background-color: lightgray;
+        margin: 0;
+
+    }
+  }

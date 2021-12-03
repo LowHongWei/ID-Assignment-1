@@ -97,11 +97,11 @@ function quantityChanged(event){
         var button = addToCartButtons[i]
         button.addEventListener('click', addingToArray)
     }
-    document.getElementsByClassName('PurchaseButton')[0].addEventListener('click',purchaseClicked)
+    document.getElementsByClassName('PurchaseButton')[0].addEventListener('click',CartClicked)
 }
 
-function purchaseClicked(){
-    alert('Thank you for your purchase, please visit us again!')
+function CartClicked(){
+    alert('Please enter your card details to pay!')
     window.localStorage.clear();
     location.reload()
     updateCartTotal()
