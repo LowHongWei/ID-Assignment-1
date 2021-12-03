@@ -228,7 +228,6 @@ html,body
 .footer-content2 p{
     margin-bottom: 8px;
     font-size: 20px;
-
 }
 
 .footer-content1 h2{
@@ -485,14 +484,12 @@ a{color: white;}
     flex-flow: row;
     background-color: lightgray;
     margin-left: 15%;
-    
 }
 
 .CheckoutContent{
     display: flex;
     flex-flow: column wrap;
     width: 50%;
-    
 }
 
 .CheckoutTitle{
