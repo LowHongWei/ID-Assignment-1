@@ -24,11 +24,13 @@ html,body
 }
 
 .title{
-    width: 20%;
+    display: flex;
+    width: 13%;
     height: auto;
     position: relative;
     padding-top: 2%;
-    left: 40%;
+    left: 43%;
+    align-items: center;
     flex-flow: row wrap;
     margin:0px 0px -1% 0px;
 }
