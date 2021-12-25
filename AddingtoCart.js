@@ -1,8 +1,3 @@
-/*ProductName
-ProductImage
-ProductButton
-ProductPrice*/
-
 let CartList = []
 
 if(document.readyState == 'loading'){
